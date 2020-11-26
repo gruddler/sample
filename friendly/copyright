@@ -1,4 +1,13 @@
-#hello world
-i am your friendly neighbourhood gruddler.
-please don't fear when i am here
-please believe me guys  i have copied a famous catchphrase from a hero of the marvel universe but literalyy  no one has arrested me for copyrighting.
+importjava.util.*;
+public class website
+{
+public static void main(String args[])
+  {
+   Scanner in=new Scanner(System.in);
+   int i,a;
+   System.out.println("enter a number to find its square value");
+   i=in.nextInt();
+   a=i*i;
+   System.out.println("the square number is"+a)
+  }
+}
